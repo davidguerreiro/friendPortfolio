@@ -19,5 +19,10 @@
    </head>
    <body>
        <main class="main">
+        <header class="main-header">
 
-        <?php echo get_template_part('tempalte-parts/header/header-top', 'bar'); ?>
+            <?php 
+                // display header top bar module.
+                get_template_part('template-parts/header/header-top', 'bar'); 
+            ?>
+        </header>
