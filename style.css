@@ -1,3 +1,7 @@
+.main-header {
+  width: 100%;
+}
+
 .section-title {
   width: 100%;
   padding: 35px 0;
@@ -53,6 +57,53 @@
   .section-title h6 {
     font-size: 1em;
   }
+}
+
+.header-top-bar {
+  width: 100%;
+  border-bottom: 3px solid rgb(164, 34, 34);
+}
+.header-top-bar__social {
+  margin: 15px 0;
+}
+.header-top-bar__social ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+@media screen and (max-width: 450px) {
+  .header-top-bar__social ul {
+    justify-content: center;
+  }
+}
+.header-top-bar__social a {
+  text-decoration: none;
+  color: #000000;
+}
+.header-top-bar__element {
+  margin-right: 25px;
+}
+.header-top-bar__element--instagram-link {
+  margin-right: 12px;
+}
+.header-top-bar__social-icon {
+  width: 44px;
+  height: 44px;
+}
+.header-top-bar__social-icon--instagram {
+  width: 37px;
+  height: 43px;
+}
+.header-top-bar__social-icon--phone {
+  width: 53px;
+  height: 44px;
+}
+.header-top-bar__phone-number {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 11px;
+  font-size: 19px;
+  letter-spacing: 1px;
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */

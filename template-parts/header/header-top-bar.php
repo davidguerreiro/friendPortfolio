@@ -16,19 +16,20 @@
 <div class="header-top-bar">
     <nav class="header-top-bar__social">
         <ul>
-            <li>
+            <li class="header-top-bar__element">
                 <a href="#" target="_blank">
-                    <img src="<?php echo esc_url($email_icon); ?>" alt="email-icon">
+                    <img src="<?php echo esc_url($email_icon); ?>" alt="email-icon" class="header-top-bar__social-icon">
                 </a>
             </li>
-            <li>
+            <li class="header-top-bar__element header-top-bar__element--instagram-link">
                 <a href="#" target="_blank">
-                    <img src="<?php echo esc_url($instagram_icon); ?>" alt="instagram-icon">
+                    <img src="<?php echo esc_url($instagram_icon); ?>" alt="instagram-icon" class="header-top-bar__social-icon header-top-bar__social-icon--instagram">
                 </a>
             </li>
-            <li>
+            <li class="header-top-bar__element">
                 <a href="#" target="_blank">
-                    <img src="<?php echo esc_url($phone_icon); ?>" alt="email-icon">
+                    <img src="<?php echo esc_url($phone_icon); ?>" alt="email-icon" class="header-top-bar__social-icon header-top-bar__social-icon--phone">
+                    <span class="header-top-bar__phone-number">664554554</span>
                 </a>
             </li>
         </ul>
