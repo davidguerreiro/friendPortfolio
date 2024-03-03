@@ -15,10 +15,13 @@
     <div class="home-image-text__content-wrapper">
         <div class="home-image-text__content">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at lectus velit. Suspendisse ut tristique lectus. Nunc rhoncus risus a tellus imperdiet porttitor sed sit amet lacus. Proin porta lacus consectetur facilisis aliquam. Maecenas cursus quam sit amet velit pulvinar convallis. Curabitur tincidunt tincidunt suscipit. Ut pretium egestas eros. Ut pharetra accumsan aliquet. Ut fringilla lacinia nisl, vel sodales augue. Nullam vel mattis urna, accumsan imperdiet arcu.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at lectus velit. Suspendisse ut tristique lectus. Nunc rhoncus risus a tellus imperdiet porttitor sed sit amet lacus. Proin porta lacus consectetur facilisis aliquam. Maecenas cursus quam sit amet velit pulvinar convallis. Curabitur tincidunt tincidunt suscipit.
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at lectus velit. Suspendisse ut tristique lectus. Nunc rhoncus risus a tellus imperdiet porttitor sed sit amet lacus. Proin porta lacus consectetur facilisis aliquam. Maecenas cursus quam sit amet velit pulvinar convallis. Curabitur tincidunt tincidunt suscipit. Ut pretium egestas eros. Ut pharetra accumsan aliquet. Ut fringilla lacinia nisl, vel sodales augue. Nullam vel mattis urna, accumsan imperdiet arcu.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at lectus velit. Suspendisse ut tristique lectus. Nunc rhoncus risus a tellus imperdiet porttitor sed sit amet lacus. Proin porta lacus consectetur facilisis aliquam. Maecenas cursus quam sit amet velit pulvinar convallis. Curabitur tincidunt tincidunt suscipit.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at lectus velit. Suspendisse ut tristique lectus. Nunc rhoncus risus a tellus imperdiet porttitor sed sit amet lacus. Proin porta lacus consectetur facilisis aliquam. Maecenas cursus quam sit amet velit pulvinar convallis. Curabitur tincidunt tincidunt suscipit.
             </p>
         </div>
         <div class="home-image-text__image">
