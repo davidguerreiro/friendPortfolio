@@ -8,7 +8,7 @@
  */
 
  $maestro_one_url = get_template_directory_uri() . '/app/images/content/maestro-1.jpeg';
- $maestro_two_url = get_template_directory_url() . '/app/images/content/maestro-2.jpeg';
+ $maestro_two_url = get_template_directory_uri() . '/app/images/content/maestro-2.jpeg';
 
 ?>
 
