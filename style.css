@@ -436,7 +436,7 @@
 }
 @media screen and (max-width: 930px) {
   .home-multiple-image-text__section--alternative {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 .home-multiple-image-text__image img {

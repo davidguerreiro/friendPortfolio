@@ -26,7 +26,7 @@
         flex-direction: row-reverse;
 
         @media screen and ( max-width: 930px ) {
-            flex-direction: column-reverse;
+           flex-direction: column;
         }
     }
 
