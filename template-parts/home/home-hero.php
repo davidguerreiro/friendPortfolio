@@ -21,7 +21,7 @@
                 Jesús Giráldez Vaquero
             </h1>
             <p class="home-hero__description">
-               Maestro de artes marciales especializado en Kung Fu, Taichi y Chi Kung. Afincado en Los Cristianos, Tenerife. Este es un texto de prueba y debe ser cambiado en la contribución final.
+               Monitor de artes marciales especializado en Kung Fu, Taichi y Chi Kung. Afincado en Los Cristianos, Tenerife. Este es un texto de prueba y debe ser cambiado en la contribución final.
             </p>
         </div>
     </div>
