@@ -254,7 +254,69 @@
 }
 
 .home-masters {
-  margin: 100px auto;
+  margin: 100px auto 0 auto;
+}
+.home-masters__section-wrapper {
+  background-color: #f8f8f8;
+  width: 100%;
+}
+.home-masters__section {
+  display: flex;
+  width: 100%;
+  max-width: 1450px;
+  justify-content: space-around;
+  margin: 50px auto;
+  padding: 100px 0;
+}
+.home-masters__image img {
+  max-width: 635px;
+  height: auto;
+  object-fit: cover;
+}
+.home-masters__content {
+  margin-left: 50px;
+}
+.home-masters__content-title {
+  font-size: 2.5em;
+  border-bottom: 2px solid #b22929;
+}
+.home-masters__list-content {
+  font-size: 20px;
+  line-height: 26px;
+  list-style-type: disc;
+  margin: 20px 0 0 20px;
+}
+@media screen and (max-width: 450px) {
+  .home-masters__list-content {
+    font-size: 18px;
+  }
+}
+.home-masters__list-content li::marker {
+  color: #b22929;
+}
+.home-masters__list-content span {
+  font-weight: bold;
+  color: #b22929;
+}
+.home-masters__description {
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 450px) {
+  .home-masters__description {
+    font-size: 18px;
+  }
+}
+.home-masters__section-wrapper--alternative {
+  background-color: transparent;
+}
+.home-masters__section--alternative {
+  flex-direction: row-reverse;
+}
+.home-masters__content--alternative {
+  margin-left: 0;
+  margin-right: 50px;
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
