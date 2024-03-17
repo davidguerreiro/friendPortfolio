@@ -18,4 +18,7 @@ get_template_part('template-parts/home/home-image', 'text');
 // display home masters section.
 get_template_part('template-parts/home/home', 'masters');
 
+// display video section.
+get_template_part('template-parts/home/home', 'video');
+
 get_footer();
