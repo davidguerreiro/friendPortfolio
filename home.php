@@ -21,4 +21,7 @@ get_template_part('template-parts/home/home', 'masters');
 // display video section.
 get_template_part('template-parts/home/home', 'video');
 
+// display disciplines section.
+get_template_part('template-parts/home/home-multiple-image', 'text');
+
 get_footer();

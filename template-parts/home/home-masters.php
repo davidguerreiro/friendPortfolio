@@ -21,7 +21,7 @@
                 <img src="<?php echo esc_url($maestro_one_url); ?>" alt="">
             </div>
             <div class="home-masters__content">
-                <h3 class="home-masters__content-title">Maestro 1</h3>
+                <h3 class="home-masters__content-title">Mi Shifu</h3>
                 <ul class="home-masters__list-content">
                     <li>
                         <?php _e('Disciplina:', 'webJesus'); ?> <span>Disciplina 1</span>
@@ -44,7 +44,7 @@
                 <img src="<?php echo esc_url($maestro_two_url); ?>" alt="">
             </div>
             <div class="home-masters__content home-masters__content--alternative">
-                <h3 class="home-masters__content-title">Maestro 2</h3>
+                <h3 class="home-masters__content-title">Qihui Zhu</h3>
                 <ul class="home-masters__list-content">
                     <li>
                         <?php _e('Disciplina:', 'webJesus'); ?> <span>Disciplina 1</span>
