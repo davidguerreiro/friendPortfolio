@@ -31,7 +31,7 @@
         <div class="home-multiple-image-text__image">
             <img src="<?php echo esc_url($secciones_test); ?>" alt="">
         </div>
-        <div class="home-multiple-image-text__content">
+        <div class="home-multiple-image-text__content home-multiple-image-text__content--alternative">
             <h3 class="home-multiple-image-text__title">LOHAN CHI KUNG</h3>
             <p class="home-multiple-image-text__text-content">El Chi kung es una rama de la medicina tradicional china que se enfoca en el cultivo y trabajo de la energía vital.</p>
             <p class="home-multiple-image-text__text-content">La propia palabra Chi (energía) kung (trabajo) ya nos la define muy bien. En el Chi kung se trabaja con el movimiento corporal, la respiración y la intención de la mente. Con su práctica ,en mayor parte, buscamos la prevención de enfermedades mediante el equilibrio y vitalizanción de la energía corporal.</p>

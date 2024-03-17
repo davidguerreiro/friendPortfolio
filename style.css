@@ -405,6 +405,96 @@
   }
 }
 
+.home-multiple-image-text {
+  margin: 120px auto 0 auto;
+}
+.home-multiple-image-text__section {
+  display: flex;
+  width: 100%;
+  max-width: 1450px;
+  justify-content: space-around;
+  margin: 80px auto 120px auto;
+}
+@media screen and (max-width: 1450px) {
+  .home-multiple-image-text__section {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 930px) {
+  .home-multiple-image-text__section {
+    width: 90%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 490px) {
+  .home-multiple-image-text__section {
+    margin: 30px auto;
+  }
+}
+.home-multiple-image-text__section--alternative {
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 930px) {
+  .home-multiple-image-text__section--alternative {
+    flex-direction: column-reverse;
+  }
+}
+.home-multiple-image-text__image img {
+  max-width: 550px;
+  height: auto;
+  object-fit: cover;
+}
+@media screen and (max-width: 1450px) {
+  .home-multiple-image-text__image img {
+    width: 410px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .home-multiple-image-text__image img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.home-multiple-image-text__content {
+  margin-left: 50px;
+}
+@media screen and (max-width: 930px) {
+  .home-multiple-image-text__content {
+    width: 80%;
+    margin: 40px auto 0 auto;
+  }
+}
+.home-multiple-image-text__content--alternative {
+  margin-left: 0;
+  margin-right: 50px;
+}
+@media screen and (max-width: 930px) {
+  .home-multiple-image-text__content--alternative {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .home-multiple-image-text__content--alternative {
+    margin-top: 10px;
+  }
+}
+.home-multiple-image-text__title {
+  font-size: 2.5em;
+  border-bottom: 2px solid #b22929;
+}
+.home-multiple-image-text__text-content {
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 15px;
+}
+@media screen and (max-width: 450px) {
+  .home-multiple-image-text__text-content {
+    font-size: 18px;
+  }
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
