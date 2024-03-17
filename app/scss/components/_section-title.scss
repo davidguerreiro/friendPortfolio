@@ -14,4 +14,8 @@
         @include diamond;
         margin-left: 20px;
     }
+
+    @media screen and ( max-width: 490px ) {
+        font-size: 3em;
+    }
 }

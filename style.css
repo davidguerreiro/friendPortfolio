@@ -35,6 +35,11 @@
   vertical-align: middle;
   margin-left: 20px;
 }
+@media screen and (max-width: 490px) {
+  .section-title {
+    font-size: 3em;
+  }
+}
 
 .header-top-bar {
   width: 100%;
@@ -268,13 +273,47 @@
   margin: 50px auto;
   padding: 100px 0;
 }
+@media screen and (max-width: 1450px) {
+  .home-masters__section {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 930px) {
+  .home-masters__section {
+    width: 90%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 490px) {
+  .home-masters__section {
+    padding: 72px 0;
+  }
+}
 .home-masters__image img {
   max-width: 635px;
   height: auto;
   object-fit: cover;
 }
+@media screen and (max-width: 1450px) {
+  .home-masters__image img {
+    width: 425px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .home-masters__image img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .home-masters__content {
   margin-left: 50px;
+}
+@media screen and (max-width: 930px) {
+  .home-masters__content {
+    width: 80%;
+    margin: 40px auto 0 auto;
+  }
 }
 .home-masters__content-title {
   font-size: 2.5em;
@@ -298,6 +337,11 @@
   font-weight: bold;
   color: #b22929;
 }
+@media screen and (max-width: 930px) {
+  .home-masters__image--alternative {
+    margin-top: 50px;
+  }
+}
 .home-masters__description {
   font-size: 20px;
   line-height: 26px;
@@ -311,12 +355,33 @@
 .home-masters__section-wrapper--alternative {
   background-color: transparent;
 }
+@media screen and (max-width: 930px) {
+  .home-masters__section-wrapper--alternative {
+    margin-top: -88px;
+  }
+}
 .home-masters__section--alternative {
   flex-direction: row-reverse;
+}
+@media screen and (max-width: 930px) {
+  .home-masters__section--alternative {
+    flex-direction: column-reverse;
+  }
 }
 .home-masters__content--alternative {
   margin-left: 0;
   margin-right: 50px;
+}
+@media screen and (max-width: 930px) {
+  .home-masters__content--alternative {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .home-masters__content--alternative {
+    margin-top: 10px;
+  }
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */

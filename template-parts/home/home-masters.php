@@ -40,7 +40,7 @@
 
     <div class="home-masters__section-wrapper home-masters__section-wrapper--alternative">
         <div class="home-masters__section home-masters__section--alternative">
-            <div class="home-masters__image">
+            <div class="home-masters__image home-masters__image--alternative">
                 <img src="<?php echo esc_url($maestro_two_url); ?>" alt="">
             </div>
             <div class="home-masters__content home-masters__content--alternative">
