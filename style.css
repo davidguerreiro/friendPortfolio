@@ -287,6 +287,7 @@
 @media screen and (max-width: 490px) {
   .home-masters__section {
     padding: 72px 0;
+    margin: 35px auto;
   }
 }
 .home-masters__image img {
@@ -396,7 +397,12 @@
 }
 .home-video__video-desc {
   color: #808080;
-  margin-top: 10px;
+  margin: 10px auto 0 auto;
+}
+@media screen and (max-width: 1450px) {
+  .home-video__video-desc {
+    width: 90%;
+  }
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
