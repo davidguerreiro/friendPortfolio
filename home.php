@@ -24,4 +24,7 @@ get_template_part('template-parts/home/home', 'video');
 // display disciplines section.
 get_template_part('template-parts/home/home-multiple-image', 'text');
 
+// display quote section.
+get_template_part('template-parts/home/home', 'quote');
+
 get_footer();
