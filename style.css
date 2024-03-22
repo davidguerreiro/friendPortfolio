@@ -499,6 +499,11 @@
   width: 100%;
   margin: 350px auto 0 auto;
 }
+@media screen and (max-width: 490px) {
+  .home-quote {
+    margin-top: 283px;
+  }
+}
 .home-quote__box-wrapper {
   position: relative;
   max-width: 1200px;
@@ -516,6 +521,21 @@
   top: -227px;
   z-index: -10;
 }
+@media screen and (max-width: 940px) {
+  .home-quote__logo {
+    left: 36%;
+  }
+}
+@media screen and (max-width: 580px) {
+  .home-quote__logo {
+    left: 26%;
+  }
+}
+@media screen and (max-width: 490px) {
+  .home-quote__logo {
+    left: 15%;
+  }
+}
 .home-quote__content {
   font-size: 29px;
   line-height: 41px;
@@ -523,6 +543,11 @@
   width: 69%;
   margin: 25px auto 0 auto;
   padding-bottom: 25px;
+}
+@media screen and (max-width: 490px) {
+  .home-quote__content {
+    font-size: 26px;
+  }
 }
 .home-quote__author {
   display: block;

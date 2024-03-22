@@ -2,6 +2,10 @@
     width: 100%;
     margin: 350px auto 0 auto;
 
+    @media screen and ( max-width:  490px ) {
+        margin-top: 283px;
+    }
+
     &__box-wrapper {
         position: relative;
         max-width: 1200px;
@@ -24,6 +28,14 @@
             left: 36%;
         }
 
+        @media screen and ( max-width:  580px ) {
+            left: 26%;
+        }
+
+        @media screen and ( max-width:  490px ) {
+            left: 15%;
+        }
+
     }
 
     &__content {
@@ -33,6 +45,10 @@
         width: 69%;
         margin: 25px auto 0 auto;
         padding-bottom: 25px;
+
+        @media screen and ( max-width:  490px ) {
+            font-size: 26px;
+        }
     }
 
     &__author {
